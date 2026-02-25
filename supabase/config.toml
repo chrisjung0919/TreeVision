@@ -1,0 +1,4 @@
+project_id = "twgpwhhdeqmqzwvxrvvl"
+
+[functions.detect-trees]
+verify_jwt = false
