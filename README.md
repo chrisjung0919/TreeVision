@@ -13,22 +13,22 @@ browser.
 
 ## 🚀 Features
 
--   Image and video upload support\
--   AI-powered tree detection via cloud inference\
--   Real-time bounding box visualization\
--   Confidence score rendering\
--   Serverless edge function pipeline\
+-   Image and video upload support
+-   AI-powered tree detection via cloud inference
+-   Real-time bounding box visualization
+-   Confidence score rendering
+-   Serverless edge function pipeline
 -   Production-ready deployment
 
 ------------------------------------------------------------------------
 
 ## 🏗️ Architecture
 
-User Upload\
-→ React Frontend\
-→ Serverless Edge Function\
-→ Vision Model Inference\
-→ Bounding Box Coordinates\
+User Upload
+→ React Frontend
+→ Serverless Edge Function
+→ Vision Model Inference
+→ Bounding Box Coordinates
 → Canvas Overlay Rendering
 
 The system is designed for scalable media processing and cloud-native
