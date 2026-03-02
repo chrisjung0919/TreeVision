@@ -1,73 +1,82 @@
-# Welcome to your Lovable project
+# 🌲 TreeVision -- AI-Powered Tree Detection Platform
 
-## Project info
+**Live Demo:** https://treevision.lovable.app/
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+TreeVision is a full-stack AI web application that detects and annotates
+trees in user-uploaded images and videos using cloud-based computer
+vision inference.\
+The platform processes media through a scalable serverless pipeline and
+renders real-time bounding boxes and confidence scores directly in the
+browser.
 
-## How can I edit this code?
+------------------------------------------------------------------------
 
-There are several ways of editing your application.
+## 🚀 Features
 
-**Use Lovable**
+-   Image and video upload support\
+-   AI-powered tree detection via cloud inference\
+-   Real-time bounding box visualization\
+-   Confidence score rendering\
+-   Serverless edge function pipeline\
+-   Production-ready deployment
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+------------------------------------------------------------------------
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🏗️ Architecture
 
-**Use your preferred IDE**
+User Upload\
+→ React Frontend\
+→ Serverless Edge Function\
+→ Vision Model Inference\
+→ Bounding Box Coordinates\
+→ Canvas Overlay Rendering
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+The system is designed for scalable media processing and cloud-native
+deployment.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+------------------------------------------------------------------------
 
-Follow these steps:
+## 🛠️ Tech Stack
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### Frontend
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+-   React (Vite)
+-   TypeScript
+-   Tailwind CSS
 
-# Step 3: Install the necessary dependencies.
-npm i
+### Backend
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+-   Supabase Edge Functions
+-   Serverless cloud infrastructure
+
+### AI
+
+-   Cloud-based computer vision model
+-   Bounding box post-processing
+
+### Deployment
+
+-   Lovable Cloud
+-   GitHub
+
+------------------------------------------------------------------------
+
+## 💻 Running Locally
+
+``` bash
+git clone https://github.com/YOUR_USERNAME/TreeVision.git
+cd TreeVision
+npm install
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+Create a `.env` file based on `.env.example` and configure required
+environment variables.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+------------------------------------------------------------------------
 
-**Use GitHub Codespaces**
+## 🎯 Motivation
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+TreeVision was built to demonstrate end-to-end AI system design,
+integrating frontend UX, cloud inference, serverless architecture, and
+real-time visualization into a production-ready application.
